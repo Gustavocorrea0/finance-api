@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    background-color: #303030;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 10px;
+    width: 1100px;
+    height: 10px;
+    color: white;
+    margin-left: 20%;
+}
+
+.description-item, .value-item, .type-item {
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+    align-items: center;
+}
+
+.btn-check-item {
+    display: flex;
+    font-size: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    width: 100px;
+    height: 12px;
+}

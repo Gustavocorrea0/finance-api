@@ -1,0 +1,142 @@
+.container {
+  display: block;
+  align-items: center;
+  flex-direction: column;
+  width: 97vh;
+  background-color: #FFFFFF;
+}
+
+.header-item {
+  display: flex;
+  background-color: #303030;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 10px;
+  width: 1100px;
+  height: 10px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 10px;
+}
+
+.header-item>div {
+  margin-left: 10px;
+}
+
+.header-item>div:last-child {
+  margin-right: 110px;
+}
+
+.description-item,
+.value-item,
+.type-item,
+.query-item {
+  text-align: center;
+  flex: 1;
+  padding: 1px;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3px;
+  max-width: 1100px;
+}
+
+.item-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3px;
+  margin-left: 2%;
+}
+
+.black-block {
+  background-color: black;
+  width: 123%;
+  height: 220px;
+  margin-top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 21px;
+  margin-left: 22.2%;
+}
+
+.revenues-block {
+  background-color: #303030;
+  width: 26%;
+  height: 130px;
+  margin-top: -80px;
+  margin-right: 50%;
+  border-radius: 8px;
+  align-content: flex-start;
+}
+
+.expenses-block {
+  background-color: #303030;
+  width: 26%;
+  height: 130px;
+  margin-top: -130px;
+  margin-left: 25%;
+  border-radius: 8px;
+}
+
+.balance-block {
+  background-color: #303030;
+  width: 26%;
+  height: 130px;
+  margin-top: -130px;
+  margin-left: 102%;
+  border-radius: 8px;
+  align-content: flex-start;
+}
+
+h1 {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+h4 {
+  text-align: start;
+}
+
+h3 {
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-weight: 500;
+}
+
+.btn-add {
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  transition: all 0.1s linear 0.1s;
+  border-radius: 50%;
+  border: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 21px;
+  padding-top: 8px;
+}
+
+.btn-add:hover {
+  transform: scale(1.1);
+}
+
+.end-screean {
+  height: 45px;
+  width: 100%;
+  margin-top: 10px;
+}
